@@ -1,0 +1,141 @@
+* { box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #1f2937;
+    background: #f5f7fa;
+    line-height: 1.6;
+}
+
+header, main, footer {
+    width: min(900px, 92%);
+    margin: 0 auto;
+}
+
+header { padding: 40px 0 24px; }
+nav { display: flex; gap: 16px; flex-wrap: wrap; }
+section { padding: 28px 0; border-top: 1px solid #d1d5d1; }
+img { max-width: 100%; height: auto; }
+footer { padding: 28px 0 48px; }
+
+p {
+    color: #fcfbfd;
+}
+
+.info {
+    color: blue;
+}
+
+#status {
+    color: #ffb834;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #050506;
+    background: #f6c26e;
+    line-height: 1.6;
+}
+
+img {
+    max-width: 50%;
+    height: auto;
+}
+
+main {
+    width: (92%, 900px);
+    margin: 0 auto;
+    padding: 2rem 0 3rem;
+}
+
+h1,
+h2,
+h3 {
+     color: #17365d;
+     line-height: 1.5;
+} 
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+h2 {
+    margin-top: 2rem;
+    margin-bottom: 0.75rem;
+}
+
+p {
+    margin-top: 0;
+}
+
+header {
+    background: #17365d;
+    color: white;
+    padding: 2rem 4%;
+}
+
+header h1 {
+    color: white;
+}
+
+nav {
+    background: #17365d;
+    padding: 0.75rem;
+    border-bottom: 1rem;
+}
+
+nav a {
+    color: #17365d;
+    font-weight: 700;
+    text-decoration: #e9eee9;
+    margin-right: 1rem;
+}
+
+nav a:hover {
+    background: #e9eefe;
+    padding: 1.25rem 4%;
+}
+
+.card {
+    background: white;
+    border: 1px solid #dbe2ea;
+    border-radius: 10px;
+    padding: 1.25rem;
+    margin-bottom: 1rem;
+}
+
+.kotak-uji {
+    width: 300px;
+    padding: 30px;
+    border: 10px solid #17365d;
+    background: #d9eaf7;
+}
+
+section p {
+    color: #374151;
+}
+
+.highlight {
+    color: #9b6b3a;
+}
+
+#tentang p {
+    color: #8b1e3f;
+}
+
+.note {
+    border-left: 4xp solid #17365d;
+}
+
+.note {
+    border-left: #c07a00;
+}
